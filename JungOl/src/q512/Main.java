@@ -6,6 +6,6 @@ public class Main {
 		float Gr = 0.2683f;
 		
 		
-		System.out.printf("%d * %.6f = %f",We,Gr,We*Gr);	
+		System.out.printf("%d * %.6f = %f\n",We,Gr,We*Gr);	
 	}
 }
