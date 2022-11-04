@@ -6,5 +6,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="q537"/>
+	<classpathentry kind="src" path="q534"/>
+	<classpathentry kind="src" path="q535"/>
+	<classpathentry kind="src" path="q538"/>
+	<classpathentry kind="src" path="q632"/>
+	<classpathentry kind="src" path="q633"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

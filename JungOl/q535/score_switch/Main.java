@@ -1,4 +1,4 @@
-package q535;
+package score_switch;
 
 import java.util.Scanner;
 

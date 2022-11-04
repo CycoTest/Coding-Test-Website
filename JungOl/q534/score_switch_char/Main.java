@@ -1,27 +1,27 @@
-package q534;
+package score_switch_char;
 
 import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String word = sc.next();
+		char aWord = sc.next().charAt(0);
 		sc.close();
 		
-		switch (word) {
-		case "A":
+		switch (aWord) {
+		case 'A':
 			System.out.println("Excellent");
 			break;
-		case "B":
+		case 'B':
 			System.out.println("Good");
 			break;
-		case "C":
+		case 'C':
 			System.out.println("Usually");
 			break;
-		case "D":
+		case 'D':
 			System.out.println("Effort");
 			break;
-		case "F":
+		case 'F':
 			System.out.println("Failure");
 			break;
 		default:
