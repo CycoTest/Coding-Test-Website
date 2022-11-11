@@ -5,12 +5,20 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="q537"/>
-	<classpathentry kind="src" path="q534"/>
-	<classpathentry kind="src" path="q535"/>
-	<classpathentry kind="src" path="q538"/>
-	<classpathentry kind="src" path="q632"/>
-	<classpathentry kind="src" path="q633"/>
+	<classpathentry kind="src" path="print_out"/>
+	<classpathentry kind="src" path="in_put"/>
+	<classpathentry kind="src" path="operator"/>
+	<classpathentry kind="src" path="debugging"/>
+	<classpathentry kind="src" path="condition_select"/>
+	<classpathentry kind="src" path="condition_repeat1"/>
+	<classpathentry kind="src" path="condition_repeat2"/>
+	<classpathentry kind="src" path="condition_repeat3"/>
+	<classpathentry kind="src" path="arrays1"/>
+	<classpathentry kind="src" path="arrays2"/>
+	<classpathentry kind="src" path="funtion1"/>
+	<classpathentry kind="src" path="funtion2"/>
+	<classpathentry kind="src" path="funtion3"/>
+	<classpathentry kind="src" path="string1"/>
+	<classpathentry kind="src" path="string2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
