@@ -20,5 +20,6 @@
 	<classpathentry kind="src" path="funtion3"/>
 	<classpathentry kind="src" path="string1"/>
 	<classpathentry kind="src" path="string2"/>
+	<classpathentry kind="src" path="Struct"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
