@@ -10,7 +10,7 @@ public class Main_while {
 		while (true) {
 			num = sc.nextInt();
 			System.out.println(num);
+			sc.close();
 		}
-		
 	}
 }

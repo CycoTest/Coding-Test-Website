@@ -2,21 +2,23 @@ package q596;
 
 import java.util.Scanner;
 
-public class Main03 {
+public class Main05 {
 	static String words;
 	static int num;
-
-	Main03() {
+	char rW[] = new char[words.length()];
+	
+	Main05() {
 		char W[] = new char[words.length()];
+
 		for (int i = 0; i < words.length(); i++) {
 			W[i] = words.charAt(i);
+			for (int j = 0; j < words.length(); j++) {
+				this.rW[j] = W[words.length() - 1 - j];
+			}
 		}
 
-		char rW[] = new char[words.length()];
-		for (int i = 0; i < words.length(); i++) {
-			rW[i] = W[words.length() - 1 - i];
-		}
-
+	}
+	void compare() {
 		if (num <= words.length()) {
 			for (int i = 0; i < num; i++) {
 				System.out.print(rW[i]);
@@ -24,17 +26,17 @@ public class Main03 {
 		} else {
 			System.out.print(rW);
 		}
+		
 	}
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Main03 prism = new Main03();
+		Main05 prism = new Main05();
 
 		words = sc.next();
 		num = sc.nextInt();
 		sc.close();
 
-		System.out.print(prism);
+		prism.compare();
 	}
 }
 // input = korea 3

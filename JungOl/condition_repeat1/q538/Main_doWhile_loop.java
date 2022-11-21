@@ -13,7 +13,7 @@ public class Main_doWhile_loop {
 			if (num > 0) {
 				System.out.println("positive integer");
 			} else if (num < 0) {
-				System.out.println("negative integer");
+				System.out.println("negative number");
 			} else {
 				break;
 			}
